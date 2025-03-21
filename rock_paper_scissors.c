@@ -4,9 +4,6 @@
 
 int main()
 {
-	rand();
-	rand();
-	rand();
 	srand(time(NULL));
 	float computer_move = rand() % 3;
 	printf("%d", RAND_MAX);
